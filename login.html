@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title> Login Saver </title>
+	
+</head>
+<body>
+
+	
+		<div>
+			<label for="uname">User Name</label>
+			<input type= "text" id="uname" name="uname" placeholder="Username Here" >
+		</div>
+		
+		<br>
+		
+		
+		<div>
+			<label for="pword">Password</label>
+			<input type= "password" id="pword" name="pword" placeholder="Password Here" >
+		</div>
+		
+		<br>
+		
+		<div>
+			<button onclick="checkinfo()">Submit</button>
+		</div>
+		
+		<p id="result"></p>
+		
+<script>
+		function checkinfo() {
+	const nameInput = document.getElementById('uname').value;
+	const passInput = document.getElementById('pword').value;
+	if (passInput === "Joshu@27mac03" && nameInput === "Joshawesome3")  window.location.href = "joshlogin.html";
+	}
+</script>
+		
+	
+	
+</body>
+</html>
