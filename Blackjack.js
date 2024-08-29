@@ -1,7 +1,8 @@
 function Hit1(){
-  var randomNumber = Math.floor(Math.random * 2) + 1;
-  if (randomNumber === 1) document.getElementById("card1").textContent= "ace";
-  document.getElementById("card2").textContent="none";
+    var randomNumber = Math.floor(Math.random() * 1) + 1;
+    var displayText = (randomNumber === 1) ? "Ace" : randomNumber;
+    document.getElementById("card1").textContent = displayText;
+
 }
 
 function dturn(){}
