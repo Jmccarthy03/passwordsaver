@@ -1,5 +1,6 @@
 function createkingdom() {
-  document.getElementById("kname").innerHTML = "domname";
+  const nameinput = document.getElementById("domname").value
+  document.getElementById("kname").innerHTML = "nameinput";
 
   
 }
