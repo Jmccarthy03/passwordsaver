@@ -1,25 +1,25 @@
+<!DOCTYPE html>
 <html>
-  <head>
-<title>Create Your Own Kingdom</title>
-<script src="kingdom.js"></script>
-  </head>
+<head>
+  <title>Create Your Kingdom</title>
+  <script src="kingdom.js"></script>
+</head>
 <body>
-<h1 id="kname">Kingdom Name</h1>
-<div>
-  <label for="uname">Kingdom Name</label>
-  <input type= "text" id="domname" name="domname" placeholder="Type Your Kingdom's Name">
 
-  <button onclick="createkingdom()">Create Your Kingdom</button>
-</div>
-  
-<p>Money:</p>
-<p>Happiness:</p>
-<p>Resources:</p>
-<p>Army:</p>
+  <h1 id="kname">Kingdom Name</h1>
 
+  <div>
+    <label for="domname">Kingdom Name:</label>
+    <input type="text" id="domname" name="domname" placeholder="Type Your Kingdom's Name">
+    <button onclick="createKingdom()">Create Your Kingdom</button>
+  </div>
 
+  <div>
+    <p>Money: <span id="money">0</span></p>
+    <p>Happiness: <span id="happiness">0</span></p>
+    <p>Resources: <span id="resources">0</span></p>
+    <p>Army: <span id="army">0</span></p>
+  </div>
 
-
-
-  </body>
+</body>
 </html>
